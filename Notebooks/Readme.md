@@ -12,7 +12,7 @@
 | Notebook | Description | Colab Link |
 |-----------|--------------|-------------|
 | **Fine_Tuning_per_protein** | Predictions on protein level (classification) using full fine-tuned model | [Open in Colab](https://colab.research.google.com/drive/1yxnZiZ3aHmXc40fpR-ynPmT1u71geLnR?usp=sharing) |
-| **Fine_Tuning_per_protein_with_LoRA** | Predictions on protein level (classification) with LoRA | [Open in Colab](https://colab.research.google.com/drive/1yxnZiZ3aHmXc40fpR-ynPmT1u71geLnR?usp=sharing) |
+| **Fine_Tuning_per_protein_with_LoRA** | Predictions on protein level (classification) with LoRA | [Open in Colab](https://drive.google.com/file/d/1KMcWfjuom2_oik8GykA9G1h6zdjeMoIM/view?usp=sharing) |
 
 ---
 
