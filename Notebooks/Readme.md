@@ -11,8 +11,8 @@
 
 | Notebook | Description | Colab Link |
 |-----------|--------------|-------------|
-| **Fine_Tuning_per_protein** | Predictions on protein level (classification) using full fine-tuned model | [Open in Colab](https://colab.research.google.com/drive/1yxnZiZ3aHmXc40fpR-ynPmT1u71geLnR?usp=sharing) |
-| **Fine_Tuning_per_protein_with_LoRA** | Predictions on protein level (classification) with LoRA | [Open in Colab](https://drive.google.com/file/d/1KMcWfjuom2_oik8GykA9G1h6zdjeMoIM/view?usp=sharing) |
+| **Full_Model_Fine_Tuning** | Full fine-tuning of the ESM2 models | [Open in Colab](https://colab.research.google.com/drive/1yxnZiZ3aHmXc40fpR-ynPmT1u71geLnR?usp=sharing) |
+| **PEFT_Fine_Tuning_using_LoRA** | PEFT fine-tuning using LoRA technique | [Open in Colab](https://colab.research.google.com/drive/1wRvIK6gELTHa-oqfsuQfp5Cib6_oMrT-?usp=sharing) |
 | **Inference_using_LoRA_650M_model** | Run inference on the TF test dataset using the trained LoRA-ESM2-650M model | [Open in Colab](https://colab.research.google.com/drive/1uENLqKBdOZihkczWLDzjdINxwZBYuCaL?usp=sharing) |
 
 ---
