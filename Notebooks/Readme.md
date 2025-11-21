@@ -13,6 +13,7 @@
 |-----------|--------------|-------------|
 | **Fine_Tuning_per_protein** | Predictions on protein level (classification) using full fine-tuned model | [Open in Colab](https://colab.research.google.com/drive/1yxnZiZ3aHmXc40fpR-ynPmT1u71geLnR?usp=sharing) |
 | **Fine_Tuning_per_protein_with_LoRA** | Predictions on protein level (classification) with LoRA | [Open in Colab](https://drive.google.com/file/d/1KMcWfjuom2_oik8GykA9G1h6zdjeMoIM/view?usp=sharing) |
+| **Inference_using_LoRA_650M_model** | Run inference on the TF test dataset using the trained LoRA-ESM2-650M model | [Open in Colab](https://colab.research.google.com/drive/1uENLqKBdOZihkczWLDzjdINxwZBYuCaL?usp=sharing) |
 
 ---
 
@@ -33,8 +34,8 @@
 ###  Parameter-Efficient Fine-Tuning (PEFT)
 
 - PEFT is utilized through **[Hugging Face PEFT](https://github.com/huggingface/peft)**.  
-- **LoRA** fine-tuning is used as the default setting.  
-- Optionally, full model fine-tuning can be performed (recommended for models smaller than *ESM2 650M*).  
+- **LoRA** fine-tuning of different ESM2 variants is done with varied settings.  
+- Optionally, full model fine-tuning can be performed (recommended for models smaller than *ESM2 3B*).  
 - Other adapters from Hugging Face PEFT can be easily integrated.
 
 ---
@@ -49,9 +50,7 @@
 
 ###  Citation
 
-If you use these notebooks in your research, please cite:
-- The authors of the original PLMs you utilized.  
-- Our work in which these notebooks were developed.
+If you use these notebooks in your research, please cite our work.
 
 ---
 
