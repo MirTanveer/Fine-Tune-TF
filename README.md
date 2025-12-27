@@ -1,5 +1,4 @@
-# Fine-tuned protein language models enchances the identification and interpretation of the transcription factors
-### Full fine-tuning ESM2 models as well as using the PEFT technique LoRA to overcome the resource constraints for identification and interpretation of transcription factors.
+### Fine-tuned protein language models enchances the identification and interpretation of the transcription factors
 
 Transcription factors (TFs) are key regulators of gene expression and are central to numerous cellular processes. They orchestrate transcriptional regulation and genome organization by recruiting transcriptional machinery to promoters or enhancers, thereby activating or repressing gene expression. Accurate identification of TFs is essential for understanding gene regulatory networks; however, experimental approaches are labor-intensive and time-consuming, underscoring the need for efficient computational methods.
 
@@ -7,6 +6,13 @@ In this study, we propose a two-layer predictive framework based on protein lang
 
 <hr style="border: none; border-top: 1px solid #ddd; margin: 30px 0;">
 
+### Google Colab Notebook Usage
+
+The Google Colab notebooks are available in the **notebook folder** and can be used to retrain the model on either the provided TF dataset or your own custom data. The notebooks also support running inference directly.
+
+For local installation or inference, please refer to the **requirements.yml** file provided in the **notebook folder**.
+
+<hr style="border: none; border-top: 1px solid #ddd; margin: 30px 0;">
 
 ### Model Architecture
 <figure style="text-align: center;">
@@ -41,7 +47,5 @@ In this study, we propose a two-layer predictive framework based on protein lang
     <strong>Figure 3.</strong> Comparison of training speed between full fine-tuning and LoRA, showing consistent acceleration with LoRA and an ~3× speed-up for ESM2-650M using 1024-length TF sequences.
   </figcaption>
 
-  <hr style="border: none; border-top: 1px solid #ddd; margin: 30px 0;">
 
-</figure>
 
