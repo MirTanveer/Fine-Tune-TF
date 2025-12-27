@@ -35,7 +35,7 @@ In this study, we propose a two-layer predictive framework based on protein lang
   title="Model improvement"
   style="width: 40%; height: auto;">
   <figcaption>
-    <strong>Figure 2.</strong> Improvement in the full fine-tuned and LoRA models over pre-trained models.
+    <strong>Figure 3.</strong> Comparison of training speed between full fine-tuning and LoRA, showing consistent acceleration with LoRA and an ~3× speed-up for ESM2-650M using 1024-length TF sequences.
   </figcaption>
 </figure>
 
