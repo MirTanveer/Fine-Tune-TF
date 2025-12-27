@@ -4,6 +4,21 @@ Transcription factors (TFs) are key regulators of gene expression and are centra
 
 In this study, we propose a two-layer predictive framework based on protein language models (pLMs), employing both full fine-tuning and parameter-efficient fine-tuning strategies. The first layer focuses on robust TF identification, while the second layer predicts TFs with a preference for methylated DNA (TFPMs). To enhance interpretability and predictive performance, we integrate attention weights and protein sequence motif analysis. Attention mechanisms highlight biologically relevant regions that contribute most to model predictions, while motif analysis reveals conserved sequence patterns critical for TF function. Across both TF and TFPM classification tasks, our approach consistently outperforms existing methods on independent test datasets.
 
+<hr style="border: none; border-top: 1px solid #f2f2f2; margin: 32px 0;">
+
+
+
+###  Protein language models evaluated in this study
+
+| Model | Hugging Face Checkpoint |
+|--------|--------------------------|
+| **ESM2 8M** | `facebook/esm2_t6_8M_UR50D` |
+| **ESM2 35M** | `facebook/esm2_t12_35M_UR50D` |
+| **ESM2 150M** | `facebook/esm2_t30_150M_UR50D` |
+| **ESM2 650M** | `facebook/esm2_t33_650M_UR50D` |
+| **ESM2 3B** | `facebook/esm2_t36_3B_UR50D` |
+| **Prot Bert** | `Rostlab/prot_bert` |
+
 
 <hr style="border: none; border-top: 1px solid #ddd; margin: 30px 0;">
 
